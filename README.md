@@ -17,3 +17,6 @@ C:\Users\S542272\Documents\44517\python-wordcount-beam-reddy\Scripts\activate.ps
 
 ### Downloading and intalling apache beam
 python -m pip install apache-beam
+
+### To run the wordcount
+python -m apache_beam.examples.wordcount --input sample.txt --output reddy_output
